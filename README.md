@@ -20,7 +20,7 @@ Write down the C# implementation of the previous task. [minefield.cs](#minefield
 
 Example below:  
 
-## minefield.py {#minefield.py}   
+## minefield.py
 
 Expected output (success):  
 ![Alt text](image.png)
@@ -33,7 +33,7 @@ _No entrance_
 ![Alt text](image-1.png)
 
   
-## minefield_ally.py {minefield_ally.py}  
+## minefield_ally.py
   
 Expected output (success):  
 ![Alt text](image-3.png)  
@@ -43,7 +43,7 @@ _Collision_
 ![Alt text](image-4.png)  
 
   
-## minefield.cs {minefield.cs}  
+## minefield.cs
 
 Expected output (success):  
 
