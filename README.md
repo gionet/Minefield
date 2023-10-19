@@ -26,7 +26,7 @@ Expected output (success):
 ![Alt text](image.png)
 
 Expected output (fail):  
-_No safe path_ 
+_No safe path_  
 ![Alt text](image-2.png)  
   
 _No entrance_  
