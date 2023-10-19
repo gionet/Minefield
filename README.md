@@ -7,7 +7,7 @@ Totoshka which can smell if any adjacent field has a bomb. Create an algorithm w
 through the minefield. [minefield.py](#minefieldpy)
   
 There is a girl Ally who is following Totoshka. Ally always stand on the field where Totoshka was before. Totoshka and 
-Ally cannot stand on the same field. Create and algorithm for Totoshka and Ally to pass through the minefield. [minefield_ally.py](#minefieldpy)  
+Ally cannot stand on the same field. Create and algorithm for Totoshka and Ally to pass through the minefield. [minefield_ally.py](#minefield_allypy)  
   
 Write down the C# implementation of the previous task. [minefield.cs](#minefieldcs)  
 
