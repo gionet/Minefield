@@ -23,6 +23,7 @@ def main():
     else:
         safe_path = find_safe_path(field, start_row, start_col)
         if safe_path:
+            print("MISSION SUCCESS!")
             for row, col in safe_path:
                 print(f"({row}, {col})")
         else:

@@ -38,6 +38,7 @@ def main():
             print("CROSSING MINEFIELD COMPLETED")
             print(f"Totoshka's Path: {path}")
             print(f"Ally's Path: {ally}")
+            
         else:
             print("No safe path found")
             
@@ -95,13 +96,17 @@ def find_safe_path(field, start_row, start_col):
         # To check for collisions (Toto and Ally != same spot)
         if len(path) > 0 and len(path_ally) > 0:
             if path[-1] == path_ally[-1]:
-                print("Totoshka and Ally collided!")
-                return False  
-    
+                raise Exception("Totoshka and Ally collided!")
+            
     # Return Toto and Ally path if true    
-    if dfs(start_row, start_col, -1, -1):
-        return path, path_ally
-    else:
+    try:
+        if dfs(start_row, start_col, -1, -1):
+            return path, path_ally
+        else:
+            return None
+        
+    except Exception as e:
+        print(e)
         return None
 
 main()
