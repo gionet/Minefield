@@ -13,17 +13,17 @@ Write down the C# implementation of the previous task.[^3]
 
 ## HOW TO:  
   
-You are only allowed to change the minefields grid that consist of '#' and 'O'.  
-You are allowed to modify, add, remove rows & columns to suit your preference.  
-You are allowed to move horizontally, vertically and diagonally. (8 directions)  
-Make sure there is a successful path from start (1st row) to end (last row).  
+- You are only allowed to change the minefields grid that consist of '#' and 'O'.  
+- You are allowed to modify, add, remove rows & columns to suit your preference.  
+- You are allowed to move horizontally, vertically and diagonally. (8 directions)  
+- Make sure there is a successful path from start (1st row) to end (last row).  
 
 Example below:  
 
 ## Minefield SOLO(1)
 [^1]: minefield.py  
   
-  
+
 Expected output (success):  
 ![Alt text](image.png)
 
@@ -35,11 +35,15 @@ _No entrance_
 ![Alt text](image-1.png)
 
   
-### Minefield DUO(2)
+### Minefield DUO(2)  
+
 [^2]: minefield_ally.py  
+  
+
 Expected output (success):  
   
-### Minefield DUO(2)
+### Minefield DUO(2)  
+
 [^3]: minefield.cs
 
 
