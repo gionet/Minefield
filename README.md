@@ -14,9 +14,9 @@ Write down the C# implementation of the previous task.[^3]
 ## HOW TO:  
   
 You are only allowed to change the minefields grid that consist of '#' and 'O'.  
-You are allowed to modify, add, remove rows & columns to suit your preference.
-You are allowed to move horizontally, vertically and diagonally. (8 directions)
-Make sure there is a successful path from start (1st row) to end (last row).
+You are allowed to modify, add, remove rows & columns to suit your preference.  
+You are allowed to move horizontally, vertically and diagonally. (8 directions)  
+Make sure there is a successful path from start (1st row) to end (last row).  
 
 Example below:  
 
@@ -26,10 +26,10 @@ Expected output (success):
 ![Alt text](image.png)
 
 Expected output (fail):  
-_No safe path_
+_No safe path_ 
 ![Alt text](image-2.png)  
   
-_No entrance_
+_No entrance_  
 ![Alt text](image-1.png)
 
   
