@@ -22,6 +22,8 @@ Example below:
 
 ## Minefield SOLO(1)
 [^1]: minefield.py  
+  
+  
 Expected output (success):  
 ![Alt text](image.png)
 
