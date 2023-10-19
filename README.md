@@ -4,12 +4,12 @@
   
 There is a minefield of size n x m where random fields having a bomb. The safe path always exists. There is a dog named 
 Totoshka which can smell if any adjacent field has a bomb. Create an algorithm with would allow Totoshka to pass 
-through the minefield. [minefield.py](#minefield.py)
+through the minefield. [minefield.py](#minefieldpy)
   
 There is a girl Ally who is following Totoshka. Ally always stand on the field where Totoshka was before. Totoshka and 
-Ally cannot stand on the same field. Create and algorithm for Totoshka and Ally to pass through the minefield. [minefield_ally.py](#minefield.py)  
+Ally cannot stand on the same field. Create and algorithm for Totoshka and Ally to pass through the minefield. [minefield_ally.py](#minefieldpy)  
   
-Write down the C# implementation of the previous task. [minefield.cs](#minefield.cs)  
+Write down the C# implementation of the previous task. [minefield.cs](#minefieldcs)  
 
 ## HOW TO:  
   
@@ -20,8 +20,8 @@ Write down the C# implementation of the previous task. [minefield.cs](#minefield
 
 Example below:  
 
-## minefield.py
-
+## minefield.py 
+  
 Expected output (success):  
 ![Alt text](image.png)
 
@@ -43,7 +43,7 @@ _Collision_
 ![Alt text](image-4.png)  
 
   
-## minefield.cs
+## minefield.cs  
 
 Expected output (success):  
 
@@ -52,6 +52,3 @@ Expected output (success):
 Expected output (fail):  
 
 ![Alt text](image-6.png)
-
-
-
